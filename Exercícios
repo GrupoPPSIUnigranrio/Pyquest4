@@ -1,0 +1,21 @@
+# 1
+soma = 0
+for i in range(10):
+    pç = float(input('Preço: R$ '))
+    soma += pç
+print('Soma dos produtos: R$ ', soma)
+
+# 2
+soma = 0
+for i in range(51):
+    soma += i
+print('A soma dos inteiros é: ', soma)
+
+# 3
+media = 0
+for i in range(10):
+    idade = int(input('Idade: '))
+    media += idade / 10
+print('Média das idades: ', media)
+
+# 4
